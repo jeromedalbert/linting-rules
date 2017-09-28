@@ -1,0 +1,254 @@
+AllCops:
+  Exclude:
+  - 'bin/**/*'
+  - 'db/**/*'
+  - 'node_modules/**/*'
+  - 'vendor/**/*'
+
+Layout/AlignArray:
+  Enabled: true
+Layout/AlignParameters:
+  Enabled: false
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+Layout/FirstParameterIndentation:
+  Enabled: true
+  EnforcedStyle: consistent
+Layout/IndentArray:
+  Enabled: true
+  EnforcedStyle: consistent
+Layout/MultilineOperationIndentation:
+  Enabled: false
+
+Naming/PredicateName:
+  Enabled: true
+  NamePrefixBlacklist:
+  - is_
+Naming/AccessorMethodName:
+  Enabled: false
+Naming/AsciiIdentifiers:
+  Enabled: false
+Naming/VariableNumber:
+  Enabled: false
+Naming/FileName:
+  Enabled: false
+
+Style/ArrayJoin:
+  Enabled: false
+Style/AsciiComments:
+  Enabled: false
+Style/Attr:
+  Enabled: false
+Style/BlockComments:
+  Enabled: true
+  Exclude:
+    - spec/spec_helper.rb
+Style/BlockDelimiters:
+  Exclude:
+    - spec/**/*
+Style/CharacterLiteral:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/ClassVars:
+  Enabled: false
+Style/CollectionMethods:
+  Enabled: true
+  PreferredMethods:
+    collect: 'map'
+    collect!: 'map!'
+    inject: 'reduce'
+    detect: 'find'
+    find_all: 'select'
+Style/ColonMethodCall:
+  Enabled: false
+Style/CommentAnnotation:
+  Enabled: false
+Style/ConditionalAssignment:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/DoubleNegation:
+  Enabled: false
+Style/EachWithObject:
+  Enabled: false
+Style/EmptyLiteral:
+  Enabled: false
+Style/EmptyMethod:
+  Enabled: false
+Style/Encoding:
+  Enabled: false
+Style/FlipFlop:
+  Enabled: false
+Style/FormatString:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/GlobalVars:
+  Enabled: false
+Style/GuardClause:
+  Enabled: false
+Style/IfWithSemicolon:
+  Enabled: false
+Style/IfUnlessModifier:
+  Enabled: false
+Style/InfiniteLoop:
+  Enabled: true
+Style/Lambda:
+  Enabled: false
+Style/LambdaCall:
+  Enabled: false
+Style/LineEndConcatenation:
+  Enabled: false
+Style/MethodCalledOnDoEndBlock:
+  Enabled: true
+Style/MethodMissing:
+  Enabled: false
+Style/ModuleFunction:
+  Enabled: false
+Style/MutableConstant:
+  Enabled: false
+Style/NegatedIf:
+  Enabled: false
+Style/NegatedWhile:
+  Enabled: false
+Style/Next:
+  Enabled: false
+Style/NumericLiterals:
+  Enabled: false
+Style/NumericPredicate:
+  Enabled: false
+Style/OneLineConditional:
+  Enabled: false
+Bundler/OrderedGems:
+  Enabled: false
+Style/PercentLiteralDelimiters:
+  Enabled: false
+Style/PerlBackrefs:
+  Enabled: false
+Style/PreferredHashMethods:
+  Enabled: false
+Style/Proc:
+  Enabled: false
+Style/RaiseArgs:
+  Enabled: false
+Style/RegexpLiteral:
+  Enabled: false
+Style/RescueModifier:
+  Enabled: true
+  Exclude:
+    - spec/**/*
+Style/SelfAssignment:
+  Enabled: false
+Style/SignalException:
+  Enabled: false
+Style/SingleLineMethods:
+  Enabled: false
+Style/SymbolArray:
+  Enabled: false
+Style/TrivialAccessors:
+  Enabled: false
+Style/VariableInterpolation:
+  Enabled: false
+Style/WhileUntilModifier:
+  Enabled: false
+Style/WordArray:
+  Enabled: false
+Style/WhenThen:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: false
+Metrics/BlockNesting:
+  Enabled: false
+Metrics/ClassLength:
+  Enabled: true
+  Max: 250
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Metrics/LineLength:
+  Enabled: true
+  Max: 100
+  Exclude:
+    - config/**/*
+Metrics/MethodLength:
+  Enabled: true
+  Max: 30
+Metrics/ParameterLists:
+  Enabled: true
+  Max: 3
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Lint/AmbiguousOperator:
+  Enabled: false
+Lint/AmbiguousRegexpLiteral:
+  Enabled: false
+Lint/ConditionPosition:
+  Enabled: false
+Lint/Debugger:
+  Enabled: true
+Lint/DeprecatedClassMethods:
+  Enabled: false
+Lint/ElseLayout:
+  Enabled: false
+Lint/HandleExceptions:
+  Enabled: true
+  Exclude:
+    - spec/**/*
+Lint/LiteralInCondition:
+  Enabled: false
+Lint/LiteralInInterpolation:
+  Enabled: false
+Lint/Loop:
+  Enabled: false
+Lint/RequireParentheses:
+  Enabled: false
+Lint/RescueWithoutErrorClass:
+  Enabled: false
+Lint/ShadowingOuterLocalVariable:
+  Enabled: false
+Lint/UnderscorePrefixedVariableName:
+  Enabled: false
+Lint/Void:
+  Enabled: false
+
+Performance/Casecmp:
+  Enabled: false
+Performance/RegexpMatch:
+  Enabled: false
+Performance/StringReplacement:
+  Enabled: false
+Performance/TimesMap:
+  Enabled: false
+
+Rails:
+  Enabled: true
+Rails/Date:
+  Enabled: true
+  EnforcedStyle: strict
+Rails/Delegate:
+  Enabled: false
+Rails/FilePath:
+  Enabled: false
+Rails/HasAndBelongsToMany:
+  Enabled: false
+Rails/HasManyOrHasOneDependent:
+  Enabled: false
+Rails/Output:
+  Enabled: false
+Rails/OutputSafety:
+  Enabled: false
+Rails/RequestReferer:
+  Enabled: false
+Rails/SkipsModelValidations:
+  Enabled: false
+Rails/TimeZone:
+  Enabled: true
+  EnforcedStyle: strict
