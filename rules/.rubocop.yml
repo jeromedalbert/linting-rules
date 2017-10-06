@@ -26,17 +26,19 @@ Layout/IndentArray:
 Layout/MultilineOperationIndentation:
   Enabled: false
 
-Naming/PredicateName:
-  Enabled: true
-  NamePrefixBlacklist:
-  - is_
 Naming/AccessorMethodName:
   Enabled: false
 Naming/AsciiIdentifiers:
   Enabled: false
-Naming/VariableNumber:
-  Enabled: false
 Naming/FileName:
+  Enabled: false
+Naming/HeredocDelimiterNaming:
+  Enabled: false
+Naming/PredicateName:
+  Enabled: true
+  NamePrefixBlacklist:
+  - is_
+Naming/VariableNumber:
   Enabled: false
 
 Style/ArrayJoin:
