@@ -9,6 +9,8 @@ Layout/AlignArray:
   Enabled: true
 Layout/AlignParameters:
   Enabled: false
+Layout/EmptyLineBetweenDefs:
+  AllowAdjacentOneLineDefs: true
 Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 Layout/EmptyLinesAroundClassBody:
