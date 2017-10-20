@@ -128,8 +128,6 @@ Style/NumericPredicate:
   Enabled: false
 Style/OneLineConditional:
   Enabled: false
-Bundler/OrderedGems:
-  Enabled: false
 Style/PercentLiteralDelimiters:
   Enabled: false
 Style/PerlBackrefs:
@@ -206,7 +204,7 @@ Lint/HandleExceptions:
   Enabled: true
   Exclude:
     - spec/**/*
-Lint/LiteralInCondition:
+Lint/LiteralAsCondition:
   Enabled: false
 Lint/LiteralInInterpolation:
   Enabled: false
@@ -256,3 +254,8 @@ Rails/SkipsModelValidations:
 Rails/TimeZone:
   Enabled: true
   EnforcedStyle: strict
+
+Bundler/OrderedGems:
+  Enabled: false
+Gemspec/OrderedDependencies:
+  Enabled: false
