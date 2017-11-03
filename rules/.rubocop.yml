@@ -251,9 +251,6 @@ Rails/RequestReferer:
   Enabled: false
 Rails/SkipsModelValidations:
   Enabled: false
-Rails/TimeZone:
-  Enabled: true
-  EnforcedStyle: strict
 
 Bundler/OrderedGems:
   Enabled: false
