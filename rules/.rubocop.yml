@@ -200,6 +200,8 @@ Lint/DeprecatedClassMethods:
   Enabled: false
 Lint/ElseLayout:
   Enabled: false
+Lint/EndAlignment:
+  EnforcedStyleAlignWith: variable
 Lint/HandleExceptions:
   Enabled: true
   Exclude:
