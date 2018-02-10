@@ -23,6 +23,9 @@ Layout/FirstParameterIndentation:
 Layout/IndentArray:
   Enabled: true
   EnforcedStyle: consistent
+Layout/IndentHash:
+  Enabled: true
+  EnforcedStyle: consistent
 Layout/MultilineOperationIndentation:
   Enabled: false
 
