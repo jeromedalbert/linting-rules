@@ -147,6 +147,9 @@ Style/RescueModifier:
   Enabled: true
   Exclude:
     - spec/**/*
+Lint/RescueStandardError:
+  Enabled: true
+  EnforcedStyle: implicit
 Style/SelfAssignment:
   Enabled: false
 Style/SignalException:
@@ -216,8 +219,6 @@ Lint/LiteralInInterpolation:
 Lint/Loop:
   Enabled: false
 Lint/RequireParentheses:
-  Enabled: false
-Lint/RescueWithoutErrorClass:
   Enabled: false
 Lint/ShadowingOuterLocalVariable:
   Enabled: false
