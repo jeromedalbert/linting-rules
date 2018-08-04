@@ -9,6 +9,8 @@ Layout/AlignArray:
   Enabled: true
 Layout/AlignParameters:
   Enabled: false
+Layout/ConditionPosition:
+  Enabled: false
 Layout/EmptyLineBetweenDefs:
   AllowAdjacentOneLineDefs: true
 Layout/EmptyLinesAroundBlockBody:
@@ -17,6 +19,8 @@ Layout/EmptyLinesAroundClassBody:
   Enabled: false
 Layout/EmptyLinesAroundModuleBody:
   Enabled: false
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
 Layout/FirstParameterIndentation:
   Enabled: true
   EnforcedStyle: consistent
@@ -113,7 +117,9 @@ Style/LineEndConcatenation:
   Enabled: false
 Style/MethodCalledOnDoEndBlock:
   Enabled: true
-Style/MethodMissing:
+Style/MethodMissingSuper:
+  Enabled: false
+Style/MissingRespondToMissing:
   Enabled: false
 Style/ModuleFunction:
   Enabled: false
@@ -147,7 +153,7 @@ Style/RescueModifier:
   Enabled: true
   Exclude:
     - spec/**/*
-Lint/RescueStandardError:
+Style/RescueStandardError:
   Enabled: true
   EnforcedStyle: implicit
 Style/SelfAssignment:
@@ -198,16 +204,12 @@ Lint/AmbiguousOperator:
   Enabled: false
 Lint/AmbiguousRegexpLiteral:
   Enabled: false
-Lint/ConditionPosition:
-  Enabled: false
 Lint/Debugger:
   Enabled: true
 Lint/DeprecatedClassMethods:
   Enabled: false
 Lint/ElseLayout:
   Enabled: false
-Lint/EndAlignment:
-  EnforcedStyleAlignWith: variable
 Lint/HandleExceptions:
   Enabled: true
   Exclude:
